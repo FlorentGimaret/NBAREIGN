@@ -1,0 +1,105 @@
+@couleur1:black;
+
+body
+{
+    text-align:center;
+    overflow-y:hidden;
+
+    #ecranAccueil
+    {
+        padding-top:45vh;
+        height:100vh;
+    }
+
+    #ecranJeu
+    {
+        padding-top:5vh;
+        height:100vh;
+        #infosPersonnage
+        {
+            width:90%;
+            margin:auto;
+            padding:2vw;
+            text-align:center;
+            border:0.1vw solid @couleur1;
+            .progress
+            {
+                display:inline-block;
+                width:15%;
+                margin:1vw;
+                .label
+                {
+                    font-size:1vw;
+                }
+            }
+        }
+        #situation
+        {
+            width:90%;
+            margin:2vh auto;
+            padding:1vw;
+            text-align:center;
+            border:0.1vw solid @couleur1;
+            #question
+            {
+                font-size:1.5vw;
+            }
+            img
+            {
+                width:25vw;
+                margin:1vw;
+                border:0.2vw solid @couleur1;
+            }
+            #choix
+            {
+                button
+                {
+                    font-size:2vw;
+                    border-radius:10vw;
+                }
+            }
+        }
+        #infosPartie
+        {
+            width:90%;
+            margin:2vh auto;
+            padding:1vw;
+            text-align:left;
+            border:0.1vw solid @couleur1;
+            #nomJoueur
+            {
+                font-size:2vw;
+                font-weight:bold;
+            }
+            #matchSaison
+            {
+                font-size:2vw;
+                text-align:right;
+            }
+            #nbrSaisons
+            {
+                font-size:2vw;
+            }
+            #rewards
+            {
+                text-align:right;
+                img
+                {
+                    width:5vw;
+                    display:none;
+                }
+            }
+        }
+    }
+
+    .ui.perdu.modal
+    {
+        img
+        {
+            display:block;
+            margin:auto;
+            margin-bottom:4vh;
+            width:30vw;
+        }
+    }
+}

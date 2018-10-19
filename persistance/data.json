@@ -1,0 +1,191 @@
+
+{
+    "situations": [
+        {
+            "question": "11Tu viens d'être drafté en NBA, tes nouveaux coéquipiers te propose de sortir pour fêter ça.",
+            "notoriete": 8,
+            "reputation": -5,
+            "forme": -3,
+            "competences": 0,
+            "argent": -2,
+            "img": "./resources/draft.jpg",
+            "oui": {
+                "question": "11Tu n'es pas passé inaperçu hier, tes excès non plus d'ailleurs. Ton coach critique ton attitude dans la presse ? Tu réponds ?",
+                "notoriete": 10,
+                "reputation": -10,
+                "forme": 0,
+                "competences": 0,
+                "argent": 0,
+                "img": "./resources/draft.jpg",
+                "oui": null,
+                "non": null
+            },
+            "non": {
+                "question": "11Tes nouveaux coéquipiers n'ont pas apprécié le fait que tu ne passes pas la soirée avec eux pour t'intégrer au groupe. Tu les invites au restaurant ?",
+                "notoriete": 0,
+                "reputation": 10,
+                "forme": 0,
+                "competences": 0,
+                "argent": -10,
+                "img": "./resources/draft.jpg",
+                "oui": null,
+                "non": null
+            }
+        },
+        {
+            "question": "12Ce soir tu affrontes le Thunder d'Oklahoma City. Le coach te propose de défendre sur Russell Wesbrook, tu acceptes ?",
+            "notoriete": 0,
+            "reputation": -5,
+            "forme": -5,
+            "competences": 10,
+            "argent": 0,
+            "img": "./resources/lebron.jpg",
+            "oui": {
+                "question": "12La foudre s'est abattu sur toi, Russell Westbrook t'as dominé. Un journaliste te demande si le problème vient du coaching ?",
+                "notoriete": 5,
+                "reputation": -10,
+                "forme": 0,
+                "competences": 0,
+                "argent": 0,
+                "img": "./resources/lebron.jpg",
+                "oui": null,
+                "non": null
+            },
+            "non": {
+                "question": "12Tu n'as pas eu un grand impact sur le match. Un journaliste évoque ton embrouille avec le coach. Il te demande si tu suis plus ton instinct que les consignes du coach ?",
+                "notoriete": 10,
+                "reputation": -10,
+                "forme": 0,
+                "competences": 0,
+                "argent": 0,
+                "img": "./resources/lebron.jpg",
+                "oui": null,
+                "non": null
+            }
+        },
+        {
+            "question": "21u viens d'être drafté en NBA, tes nouveaux coéquipiers te propose de sortir pour fêter ça.",
+            "notoriete": 8,
+            "reputation": -5,
+            "forme": -3,
+            "competences": 0,
+            "argent": -2,
+            "img": "./resources/draft.jpg",
+            "oui": {
+                "question": "21Tu n'es pas passé inaperçu hier, tes excès non plus d'ailleurs. Ton coach critique ton attitude dans la presse ? Tu réponds ?",
+                "notoriete": 10,
+                "reputation": -10,
+                "forme": 0,
+                "competences": 0,
+                "argent": 0,
+                "img": "./resources/draft.jpg",
+                "oui": null,
+                "non": null
+            },
+            "non": {
+                "question": "21Tes nouveaux coéquipiers n'ont pas apprécié le fait que tu ne passes pas la soirée avec eux pour t'intégrer au groupe. Tu les invites au restaurant ?",
+                "notoriete": 0,
+                "reputation": 10,
+                "forme": 0,
+                "competences": 0,
+                "argent": -10,
+                "img": "./resources/draft.jpg",
+                "oui": null,
+                "non": null
+            }
+        },
+        {
+            "question": "22Pour le premier match de ta carrière, tu affrontes le Thunder d'Oklahoma City. Le coach te propose de défendre sur Russell Wesbrook, tu acceptes ?",
+            "notoriete": 0,
+            "reputation": -5,
+            "forme": -5,
+            "competences": 10,
+            "argent": 0,
+            "img": "./resources/lebron.jpg",
+            "oui": {
+                "question": "22La foudre s'est abattu sur toi, Russell Westbrook t'as dominé. Un journaliste te demande si le problème vient du coaching ?",
+                "notoriete": 5,
+                "reputation": -10,
+                "forme": 0,
+                "competences": 0,
+                "argent": 0,
+                "img": "./resources/lebron.jpg",
+                "oui": null,
+                "non": null
+            },
+            "non": {
+                "question": "22Tu n'as pas eu un grand impact sur le match. Un journaliste évoque ton embrouille avec le coach. Il te demande si tu suis plus ton instinct que les consignes du coach ?",
+                "notoriete": 10,
+                "reputation": -10,
+                "forme": 0,
+                "competences": 0,
+                "argent": 0,
+                "img": "./resources/lebron.jpg",
+                "oui": null,
+                "non": null
+            }
+        },
+        {
+            "question": "31Tu viens d'être drafté en NBA, tes nouveaux coéquipiers te propose de sortir pour fêter ça.",
+            "notoriete": 8,
+            "reputation": -5,
+            "forme": -3,
+            "competences": 0,
+            "argent": -2,
+            "img": "./resources/draft.jpg",
+            "oui": {
+                "question": "31Tu n'es pas passé inaperçu hier, tes excès non plus d'ailleurs. Ton coach critique ton attitude dans la presse ? Tu réponds ?",
+                "notoriete": 10,
+                "reputation": -10,
+                "forme": 0,
+                "competences": 0,
+                "argent": 0,
+                "img": "./resources/draft.jpg",
+                "oui": null,
+                "non": null
+            },
+            "non": {
+                "question": "31Tes nouveaux coéquipiers n'ont pas apprécié le fait que tu ne passes pas la soirée avec eux pour t'intégrer au groupe. Tu les invites au restaurant ?",
+                "notoriete": 0,
+                "reputation": 10,
+                "forme": 0,
+                "competences": 0,
+                "argent": -10,
+                "img": "./resources/draft.jpg",
+                "oui": null,
+                "non": null
+            }
+        },
+        {
+            "question": "32Pour le premier match de ta carrière, tu affrontes le Thunder d'Oklahoma City. Le coach te propose de défendre sur Russell Wesbrook, tu acceptes ?",
+            "notoriete": 0,
+            "reputation": -5,
+            "forme": -5,
+            "competences": 10,
+            "argent": 0,
+            "img": "./resources/lebron.jpg",
+            "oui": {
+                "question": "32La foudre s'est abattu sur toi, Russell Westbrook t'as dominé. Un journaliste te demande si le problème vient du coaching ?",
+                "notoriete": 5,
+                "reputation": -10,
+                "forme": 0,
+                "competences": 0,
+                "argent": 0,
+                "img": "./resources/lebron.jpg",
+                "oui": null,
+                "non": null
+            },
+            "non": {
+                "question": "32Tu n'as pas eu un grand impact sur le match. Un journaliste évoque ton embrouille avec le coach. Il te demande si tu suis plus ton instinct que les consignes du coach ?",
+                "notoriete": 10,
+                "reputation": -10,
+                "forme": 0,
+                "competences": 0,
+                "argent": 0,
+                "img": "./resources/lebron.jpg",
+                "oui": null,
+                "non": null
+            }
+        }
+    ]
+}
