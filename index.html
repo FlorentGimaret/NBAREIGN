@@ -6,15 +6,19 @@
   <title>NBA Reign</title>
   <link rel="stylesheet/less" type="text/css" href="style.less" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
 </head>
 
 <body>
   <section id="ecranAccueil">
     <form method="POST" action="jeu.php">
       <div class="ui input">
-          <input type="text" placeholder="Entrer votre pseudo..." id="valPseudo" name="valPseudo"/>
+          <input required type="text" placeholder="Entrer votre pseudo..." id="valPseudo" name="valPseudo"/>
       </div>
-      <input type="submit" value="Commencer"/>
+      <input class="ui primary button" type="submit" value="Commencer"/>
     </form>
   </section>
 </body>

@@ -46,12 +46,12 @@
     var numSituation = 0;
     var alt;
     var pourcentageNul;
+    var img = 0;
     chargerSituations();
 
     window.onload = function(){
       document.getElementById("question").innerHTML
       document.getElementById("question").innerHTML = situations[0]["question"];
-      document.getElementById("imageSituation").src = situations[0]["img"];
       nouvelleSituation = situations[numSituation];
     };
 
@@ -144,8 +144,9 @@
         document.getElementById("nbrSaisons").firstChild.innerHTML = ++nbrSaisons;
       }
       
-      if (nbrSaisons == 1 && numMatch > 41) {
-        document.getElementById("rewards").querySelector("img:first-of-type").style.display = "inline";
+      if (numMatch > 41) {
+        document.getElementsByClassName("rewards")[img].style.display = "inline";
+        img++;
       }
     }
   </script>
@@ -195,7 +196,6 @@
 
     <article id="situation">
       <p id="question"></p>
-      <img id="imageSituation" src=""/>
       <div id="choix">
           <button class="ui icon red deny inverted button" onclick="repondre(0)">
             <i class="remove icon"></i>
@@ -211,15 +211,15 @@
         <div class="eight wide column" id="nomJoueur"><?php echo $pseudo ?></div>
         <div class="eight wide column" id="matchSaison"><span>1</span> e match de la saison.</div>
         <div class="eight wide column" id="nbrSaisons"><span>1</span> e saison.</div>
-        <div class="eight wide column" id="rewards">
-          <img src="resources/icons/bronze-medal.png"/>
-          <img src="resources/icons/silver-medal.png"/>
-          <img src="resources/icons/gold-medal.png"/>
-          <img src="resources/icons/bronze-badge.png"/>
-          <img src="resources/icons/silver-badge.png"/>
-          <img src="resources/icons/gold-badge.png"/>
-          <img src="resources/icons/trophy.png"/>
-          <img src="resources/icons/podium.png"/>
+        <div class="eight wide column" id="trophees">
+          <img class="rewards" src="resources/icons/bronze-medal.png"/>
+          <img class="rewards" src="resources/icons/silver-medal.png"/>
+          <img class="rewards" src="resources/icons/gold-medal.png"/>
+          <img class="rewards" src="resources/icons/bronze-badge.png"/>
+          <img class="rewards" src="resources/icons/silver-badge.png"/>
+          <img class="rewards" src="resources/icons/gold-badge.png"/>
+          <img class="rewards" src="resources/icons/trophy.png"/>
+          <img class="rewards" src="resources/icons/podium.png"/>
         </div>
       </div>
     </article>
