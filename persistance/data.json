@@ -8,7 +8,6 @@
             "forme": -3,
             "competences": 0,
             "argent": -2,
-            "img": "./resources/draft.jpg",
             "oui": {
                 "question": "Tu n'es pas passé inaperçu hier, tes excès non plus d'ailleurs. Ton coach critique ton attitude dans la presse ? Tu réponds ?",
                 "notoriete": 10,
@@ -16,7 +15,6 @@
                 "forme": 0,
                 "competences": 0,
                 "argent": 0,
-                "img": "./resources/draft.jpg",
                 "oui": null,
                 "non": null
             },
@@ -27,7 +25,6 @@
                 "forme": 0,
                 "competences": 0,
                 "argent": -10,
-                "img": "./resources/draft.jpg",
                 "oui": null,
                 "non": null
             }
@@ -39,7 +36,6 @@
             "forme": -5,
             "competences": 10,
             "argent": 0,
-            "img": "./resources/lebron.jpg",
             "oui": {
                 "question": "La foudre s'est abattu sur toi, Russell Westbrook t'as dominé. Un journaliste te demande si le problème vient du coaching ?",
                 "notoriete": 5,
@@ -47,7 +43,6 @@
                 "forme": 0,
                 "competences": 0,
                 "argent": 0,
-                "img": "./resources/lebron.jpg",
                 "oui": null,
                 "non": null
             },
@@ -58,131 +53,118 @@
                 "forme": 0,
                 "competences": 0,
                 "argent": 0,
-                "img": "./resources/lebron.jpg",
                 "oui": null,
                 "non": null
             }
         },
         {
-            "question": "C'est ta seconde année en NBA. Une marque douteuse te propose un contrat de sponsoring très rémunérateur. Tu acceptes ?",
-            "notoriete": 8,
-            "reputation": -5,
-            "forme": -3,
-            "competences": 0,
-            "argent": -2,
-            "img": "./resources/draft.jpg",
-            "oui": {
-                "question": "Tu n'es pas passé inaperçu hier, tes excès non plus d'ailleurs. Ton coach critique ton attitude dans la presse ? Tu réponds ?",
-                "notoriete": 10,
-                "reputation": -10,
-                "forme": 0,
-                "competences": 0,
-                "argent": 0,
-                "img": "./resources/draft.jpg",
-                "oui": null,
-                "non": null
-            },
-            "non": {
-                "question": "Tes nouveaux coéquipiers n'ont pas apprécié le fait que tu ne passes pas la soirée avec eux pour t'intégrer au groupe. Tu les invites au restaurant ?",
-                "notoriete": 0,
-                "reputation": 10,
-                "forme": 0,
-                "competences": 100,
-                "argent": -10,
-                "img": "./resources/draft.jpg",
-                "oui": null,
-                "non": null
-            }
-        },
-        {
-            "question": "Pour le premier match de ta carrière, tu affrontes le Thunder d'Oklahoma City. Le coach te propose de défendre sur Russell Wesbrook, tu acceptes ?",
-            "notoriete": 100,
-            "reputation": -5,
+            "question": "C'est ta seconde année en NBA. Une marque de chaussures douteuse te propose un contrat de sponsoring très rémunérateur. Tu acceptes ?",
+            "notoriete": 5,
+            "reputation": -10,
             "forme": -5,
-            "competences": 10,
-            "argent": 0,
-            "img": "./resources/lebron.jpg",
-            "oui": {
-                "question": "22La foudre s'est abattu sur toi, Russell Westbrook t'as dominé. Un journaliste te demande si le problème vient du coaching ?",
-                "notoriete": 5,
-                "reputation": -10,
-                "forme": 0,
-                "competences": 0,
-                "argent": 0,
-                "img": "./resources/lebron.jpg",
-                "oui": null,
-                "non": null
-            },
-            "non": {
-                "question": "Tu n'as pas eu un grand impact sur le match. Un journaliste évoque ton embrouille avec le coach. Il te demande si tu suis plus ton instinct que les consignes du coach ?",
-                "notoriete": 10,
-                "reputation": -10,
-                "forme": 0,
-                "competences": 0,
-                "argent": 0,
-                "img": "./resources/lebron.jpg",
-                "oui": null,
-                "non": null
-            }
-        },
-        {
-            "question": "Tu viens d'être drafté en NBA, tes nouveaux coéquipiers te propose de sortir pour fêter ça.",
-            "notoriete": 8,
-            "reputation": -5,
-            "forme": -3,
             "competences": 0,
-            "argent": -2,
-            "img": "./resources/draft.jpg",
+            "argent": 10,
             "oui": {
-                "question": "31Tu n'es pas passé inaperçu hier, tes excès non plus d'ailleurs. Ton coach critique ton attitude dans la presse ? Tu réponds ?",
-                "notoriete": 10,
+                "question": "Tu t'es blessé à cause de tes chaussures de mauvaise qualité. Ton sponsor te propose une prime pour que tu n'ailles pas voir ailleurs. Tu acceptes ?",
+                "notoriete": 0,
                 "reputation": -10,
-                "forme": 0,
-                "competences": 0,
-                "argent": 0,
-                "img": "./resources/draft.jpg",
+                "forme": -5,
+                "competences": -5,
+                "argent": 10,
                 "oui": null,
                 "non": null
             },
             "non": {
-                "question": "Tes nouveaux coéquipiers n'ont pas apprécié le fait que tu ne passes pas la soirée avec eux pour t'intégrer au groupe. Tu les invites au restaurant ?",
-                "notoriete": 0,
-                "reputation": 10,
+                "question": "Tu as un rendez-vous avec Nike. Tu préfères continuer à t'entraîner ?",
+                "notoriete": -10,
+                "reputation": 5,
                 "forme": 0,
-                "competences": 0,
-                "argent": -10,
-                "img": "./resources/draft.jpg",
+                "competences": 10,
+                "argent": -5,
                 "oui": null,
                 "non": null
             }
         },
         {
-            "question": "Pour le premier match de ta carrière, tu affrontes le Thunder d'Oklahoma City. Le coach te propose de défendre sur Russell Wesbrook, tu acceptes ?",
-            "notoriete": 0,
-            "reputation": -5,
-            "forme": -5,
-            "competences": 10,
+            "question": "La NBA te propose de participer au concours de dunk. Ça te branche ?",
+            "notoriete": 20,
+            "reputation": 5,
+            "forme": -10,
+            "competences": 0,
             "argent": 0,
-            "img": "./resources/lebron.jpg",
             "oui": {
-                "question": "La foudre s'est abattu sur toi, Russell Westbrook t'as dominé. Un journaliste te demande si le problème vient du coaching ?",
-                "notoriete": 5,
-                "reputation": -10,
-                "forme": 0,
-                "competences": 0,
-                "argent": 0,
-                "img": "./resources/lebron.jpg",
+                "question": "Aïe aïe aïe, tu as tout cassé au concours de dunk. C'est ton premier trophée en NBA ! Tu fêtes ça avec les fans ?",
+                "notoriete": 10,
+                "reputation": 5,
+                "forme": -10,
+                "competences": -5,
+                "argent": -5,
                 "oui": null,
                 "non": null
             },
             "non": {
-                "question": "Tu n'as pas eu un grand impact sur le match. Un journaliste évoque ton embrouille avec le coach. Il te demande si tu suis plus ton instinct que les consignes du coach ?",
+                "question": "Tes fans ont été déçus de savoir que tu ne participerais pas au concours de dunk. Tu pars en vacances le temps du All Star break ?",
+                "notoriete": 0,
+                "reputation": -5,
+                "forme": 10,
+                "competences": -5,
+                "argent": 0,
+                "oui": null,
+                "non": null
+            }
+        },
+        {
+            "question": "Ton contrat rookie arrive à son terme. Les Hawks d'Atlanta te propose un contrat de 120M sur 4 ans. Tu acceptes ?",
+            "notoriete": -15,
+            "reputation": 0,
+            "forme": 0,
+            "competences": -5,
+            "argent": 15,
+            "oui": {
+                "question": "Tu es maintenant dans une équipe faible. Ta notoriété a chuté. Un journalise te demande si cela t'inquiètes ?",
+                "notoriete": 0,
+                "reputation": -10,
+                "forme": 0,
+                "competences": 0,
+                "argent": 0,
+                "oui": null,
+                "non": null
+            },
+            "non": {
+                "question": "Tu acceptes finalement une offre de 80M sur 4 ans des Lakers de Los Angeles. LeBron James te charie à l'entraînement, tu réponds ?",
                 "notoriete": 10,
                 "reputation": -10,
                 "forme": 0,
                 "competences": 0,
                 "argent": 0,
-                "img": "./resources/lebron.jpg",
+                "oui": null,
+                "non": null
+            }
+        },
+        {
+            "question": "Tu affrontes les Warriors de Golden State. 110-110. Il reste 2.3 secondes dans le match. Tu prends le shoot ?",
+            "notoriete": 10,
+            "reputation": 5,
+            "forme": 0,
+            "competences": 5,
+            "argent": 0,
+            "oui": {
+                "question": "Quel shoot! Tu as pris tes responsabilités et a fait gagner ton équipe. Un fan des Warriors t'insulte, tu réponds ?",
+                "notoriete": 10,
+                "reputation": -10,
+                "forme": 0,
+                "competences": 0,
+                "argent": -5,
+                "oui": null,
+                "non": null
+            },
+            "non": {
+                "question": "Tes coéquipiers et ton coach sont déçus que tu n'es pas pris tes responsabilités. Kawhi Leonard prend ta défense dans la presse. Tu le remercies ?",
+                "notoriete": 10,
+                "reputation": -10,
+                "forme": 0,
+                "competences": 0,
+                "argent": 0,
                 "oui": null,
                 "non": null
             }
