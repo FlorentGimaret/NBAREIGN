@@ -90,10 +90,10 @@
         };
         $(".perdu").modal({
           onApprove : function() {
-            window.location.hash = "index.html";
+            window.location.href = "./jeu.html?valPseudo=" + document.getElementById("nomJoueur").innerText;
           },
           onDeny : function() {
-            window.location.hash = "index.html";
+            window.location.href = "./index.html";
           }
         }).modal("show");
       }
@@ -103,10 +103,10 @@
         document.getElementsByClassName("content")[0].innerHTML = "Tu as réussie ta carrière NBA, félicitations ! Tu es populaire, aimé et riche. Invité dans une émission TV, Shaquille O'neal t'es tombé dessus, tu es mort. Cordialement.";
         $(".perdu").modal({
           onApprove : function() {
-            window.location.hash = "index.html";
+            window.location.replace('./index.html?valPseudo=' + $("#nomJoueur"));
           },
           onDeny : function() {
-            window.location.hash = "index.html";
+            window.location.replace('./index.html');
           }
         }).modal("show");
       }
