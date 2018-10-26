@@ -1,21 +1,4 @@
-<?php
-  $pseudo = $_POST['valPseudo'];
-?>
-
-<!doctype html>
-<html lang="fr">
-
-<head>
-  <meta charset="utf-8">
-  <title>NBA Reign</title>
-  <link rel="stylesheet/less" type="text/css" href="style.less" />
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
-  <script>
-    function chargerSituations () {
+  function chargerSituations () {
       var request = new XMLHttpRequest();
       request.open("GET", "persistance/data.json", false);
       request.send(null);
@@ -50,15 +33,18 @@
     chargerSituations();
 
     window.onload = function(){
-      document.getElementById("question").innerHTML
       document.getElementById("question").innerHTML = situations[0]["question"];
       nouvelleSituation = situations[numSituation];
+
+      var url_string = window.location.href;
+      var url = new URL(url_string);
+      var valPseudo = url.searchParams.get("valPseudo");
+      document.getElementById("nomJoueur").innerHTML = valPseudo;
     };
 
     function repondre(typeRep) {
       alt = null;
       situationActuelle = nouvelleSituation;
-      console.log(situationActuelle["non"]);
       if (typeRep == 0) {
         setPercent(0, - situationActuelle["notoriete"]);
         setPercent(1, - situationActuelle["reputation"]);
@@ -78,7 +64,7 @@
           alt = 1;
         }
       }
-      //situations.splice(numSituation, 1);
+
       if(pourcentageNul != null) {
         switch (pourcentageNul) {
           case 0:
@@ -112,8 +98,6 @@
         }).modal("show");
       }
       
-      console.log(situations.length);
-      console.log(numSituation);
       if (numSituation == situations.length - 1) {
         document.getElementsByClassName("header")[0].innerHTML = "<img src='https://media.giphy.com/media/O6NvCZ9UViRXy/giphy.gif'/> YOU'RE A BEAST! YOU WIN!";
         document.getElementsByClassName("content")[0].innerHTML = "Tu as réussie ta carrière NBA, félicitations ! Tu es populaire, aimé et riche. Invité dans une émission TV, Shaquille O'neal t'es tombé dessus, tu es mort. Cordialement.";
@@ -127,7 +111,6 @@
         }).modal("show");
       }
 
-      //numSituation = Math.floor(Math.random() * situations.length);
       if (alt == 0) { nouvelleSituation = situations[numSituation]["non"]; }
       else if (alt == 1) { nouvelleSituation = situations[numSituation]["oui"]; }
       else {
@@ -149,97 +132,3 @@
         img++;
       }
     }
-  </script>
-</head>
-
-<body>
-  <section id="ecranJeu">
-    <h1>NBA REIGN</h1>
-
-    <article id="infosPersonnage">
-      <div class="ui indicating progress active" data-percent="50">
-            <div class="bar" style="width:50%;">
-                
-            </div>
-            <div class="progress">50%</div>
-            <div class="label">Notoriété</div>
-      </div>
-      <div class="ui indicating progress active" data-percent="50">
-        <div class="bar" style="width:50%;">
-            
-        </div>
-        <div class="progress">50%</div>
-        <div class="label">Réputation</div>
-      </div>
-      <div class="ui indicating progress active" data-percent="50">
-        <div class="bar" style="width:50%;">
-            
-        </div>
-        <div class="progress">50%</div>
-        <div class="label">Forme</div>
-      </div>
-      <div class="ui indicating progress active" data-percent="50">
-        <div class="bar" style="width:50%;">
-            
-        </div>
-        <div class="progress">50%</div>
-        <div class="label">Compétences</div>
-      </div>
-      <div class="ui indicating progress active" data-percent="50">
-        <div class="bar" style="width:50%;">
-            
-        </div>
-        <div class="progress">50%</div>
-        <div class="label">Argent</div>
-      </div>
-    </article>
-
-    <article id="situation">
-      <p id="question"></p>
-      <div id="choix">
-          <button class="ui icon red deny inverted button" onclick="repondre(0)">
-            <i class="remove icon"></i>
-          </button>
-          <button class="ui icon green ok inverted button" onclick="repondre(1)">
-            <i class="checkmark icon"></i>
-          </button>
-        </div>
-    </article>
-
-    <article id="infosPartie">
-      <div class="ui grid">
-        <div class="eight wide column" id="nomJoueur"><?php echo $pseudo ?></div>
-        <div class="eight wide column" id="matchSaison"><span>1</span> e match de la saison.</div>
-        <div class="eight wide column" id="nbrSaisons"><span>1</span> e saison.</div>
-        <div class="eight wide column" id="trophees">
-          <img class="rewards" src="resources/icons/bronze-medal.png"/>
-          <img class="rewards" src="resources/icons/silver-medal.png"/>
-          <img class="rewards" src="resources/icons/gold-medal.png"/>
-          <img class="rewards" src="resources/icons/bronze-badge.png"/>
-          <img class="rewards" src="resources/icons/silver-badge.png"/>
-          <img class="rewards" src="resources/icons/gold-badge.png"/>
-          <img class="rewards" src="resources/icons/trophy.png"/>
-          <img class="rewards" src="resources/icons/podium.png"/>
-        </div>
-      </div>
-    </article>
-  </section>
-
-  <div class="ui perdu modal">
-      <div class="ui icon header"></div>
-      <div class="content"></div>
-      <div class="actions">
-        <div class="ui red deny inverted button">
-          <i class="remove icon"></i>
-          Non, de toute façon c'est cheaté
-        </div>
-        <div class="ui green ok inverted button">
-          <i class="checkmark icon"></i>
-          Je suis nul mais je vais réessayer
-        </div>
-      </div>
-    </div>
-
-</body>
-
-</html>
