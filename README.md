@@ -31,4 +31,4 @@ Tu as perdu à cause de ton incompétence :
 ![image demo 7](resources/competences.JPG)
 
 Tu as perdu à cause de ta mauvaise gestion de l'argent :
-![image demo 8](resources/notoriete.JPG)
+![image demo 8](resources/argent.JPG)
