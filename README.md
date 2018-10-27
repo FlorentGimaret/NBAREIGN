@@ -1,4 +1,4 @@
-# ![image demo 1](resources/nbaReign.jpg)
+# ![image demo 1](resources/nbaReign.JPG)
 
 Ça y est, ton rêve est sur le point de se réaliser, tu vas être drafté en NBA.
 
