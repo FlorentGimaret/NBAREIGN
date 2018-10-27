@@ -6,7 +6,7 @@
 
 La pérennité de ta carrière dépendra de tes choix. Ces derniers affecteront 5 variables: ta notoriété, ta réputation, ta forme physique, tes compétences ainsi que ton argent.
 
-![image demo 2](resources/variables.jpg)
+![image demo 2](resources/variables.JPG)
 
 ## Principe
 
@@ -16,19 +16,19 @@ Si tu arrives au bout des questions, tu as gagné. En revanche, si une des varia
 ## Scénarios
 
 Tu as agné :
-![image demo 3](resources/gagne.jpg)
+![image demo 3](resources/gagne.JPG)
 
 Tu as perdu à cause de ta notoriété :
-![image demo 4](resources/notoriete.jpg)
+![image demo 4](resources/notoriete.JPG)
 
 Tu as perdu à cause de ta réputation :
-![image demo 5](resources/reputation.jpg)
+![image demo 5](resources/reputation.JPG)
 
 Tu as perdu à cause de ta forme physique :
-![image demo 6](resources/forme.jpg)
+![image demo 6](resources/forme.JPG)
 
 Tu as perdu à cause de ton incompétence :
-![image demo 7](resources/competences.jpg)
+![image demo 7](resources/competences.JPG)
 
 Tu as perdu à cause de ta mauvaise gestion de l'argent :
-![image demo 8](resources/notoriete.jpg)
+![image demo 8](resources/notoriete.JPG)
