@@ -15,7 +15,7 @@ Si tu arrives au bout des questions, tu as gagné. En revanche, si une des varia
 
 ## Scénarios
 
-Tu as agné :
+Tu as gagné :
 ![image demo 3](resources/gagne.JPG)
 
 Tu as perdu à cause de ta notoriété :
